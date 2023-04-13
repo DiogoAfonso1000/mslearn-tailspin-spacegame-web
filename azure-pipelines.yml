@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: ADO_ORG
+pool:  
+  vmImage: ubuntu-latest
 
 variables:
   solution: '**/*.sln'
